@@ -68,7 +68,7 @@ nav ul li a:active {
 }
 
 /* Parte 1 */
-container1 {
+#container1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,14 +103,14 @@ container1 {
 }
 
 /* Parte 2 */
-container2 {
+#container2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 50px 50px 0px;
 }
 
-container2 h3 {
+#container2 h3 {
     display: flex;
     justify-content: center;
     align-self: start;
@@ -118,7 +118,7 @@ container2 h3 {
     margin: 50px 20px 20px;
 }
 
-container2 hr {
+#container2 hr {
     display: flex;
     align-self: center;
     box-shadow: 0 0px 10px #99c0ff;
@@ -213,7 +213,7 @@ container2 hr {
 }
 
 /* Parte 3 */
-container3 {
+#container3 {
     display: flex;
     align-items: center;
     justify-content: center;
