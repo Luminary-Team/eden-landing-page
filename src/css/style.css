@@ -214,8 +214,8 @@ button a {
     width: 600px;
 }
 
-/* Parte final */
-.container6 {
+/* Footer */
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,7 +223,7 @@ button a {
     width: 100%;
 }
 
-.parte6 {
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
