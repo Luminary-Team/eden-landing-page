@@ -352,26 +352,3 @@ footer {
   outline: none;
   box-shadow: 0 0 0 3px rgba(0, 128, 255, 0.5);
 }
-
-/* Logo & Nav Bar */
-.main-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-  }
-  
-  img#logo {
-    height: 40px;
-    margin-right: auto;
-    margin-left: 5px;
-    margin-bottom: -5px;
-    margin-top: -5px;
-  }
-  
-  .nav-bar {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-  }
-  

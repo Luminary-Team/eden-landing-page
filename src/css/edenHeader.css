@@ -46,3 +46,25 @@ nav ul li a:active {
     align-items: center;
     width: 20px;
 }
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  img#logo {
+    height: 40px;
+    margin-right: auto;
+    margin-left: 5px;
+    margin-bottom: -5px;
+    margin-top: -5px;
+  }
+  
+  .nav-bar {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
