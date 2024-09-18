@@ -7,9 +7,6 @@ Os principais integrantes que trabalharam nesta disciplina são:
 Nós usamos a linguagem de HTML, CSS e JS criando as telas seguintes:
 - Tela de Inicio
 - Tela de Login
-- Tela da Loja
-- Tela do Carrinho de Comprar
 - Tela das Políticas e Privacidades
 - Tela de Quem Somos
 - Tela dos Termos de Uso
-- Tela de Redefinir Senha
