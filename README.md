@@ -30,10 +30,10 @@
 <h2>📂 Estrutura do Repositório</h2>
 <ul>
   <li><strong>index.html</strong> - Página inicial</li>
-  <li><strong>login.html</strong> - Tela de login</li>
-  <li><strong>privacidade.html</strong> - Políticas de privacidade</li>
-  <li><strong>quem-somos.html</strong> - Página "Quem Somos"</li>
-  <li><strong>termos.html</strong> - Termos de uso</li>
+  <li><strong>edenLogin.html</strong> - Tela de login</li>
+  <li><strong>edenPoliticaDePrivacidade.html</strong> - Políticas de privacidade</li>
+  <li><strong>edenQuemSomos.html</strong> - Página "Quem Somos"</li>
+  <li><strong>edenTermosDeUso.html</strong> - Termos de uso</li>
 </ul>
 
 <h2>📚 Sobre o Projeto</h2>
