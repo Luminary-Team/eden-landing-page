@@ -5,6 +5,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
 /* TítuloS */
 .separador {
     box-shadow: 0 0px 10px #99c0ff;
@@ -12,7 +13,7 @@
     justify-content: center;
     padding: 25px 20px;
     background: #3c87ff;
-    background-image: url(gosma_lateral.gif);
+    background-image: url(../Imagens/gosma_lateral.gif);
     background-repeat: no-repeat;
     background-position: center;
     margin: 70px 0;
@@ -31,7 +32,7 @@
 }
 
 /* Container 1 */
-#objetivo {
+container1 {
     margin: 20px 0px;
     display: flex;
     justify-content: center;
@@ -58,7 +59,7 @@
 }
 
 /* Container 2 */
-#equipes {
+container2 {
     margin: 20px 0px;
     display: flex;
     justify-content: center;
@@ -116,7 +117,7 @@
 }
 
 /* Container 3 */
-#valoresGrupo {
+container3 {
     margin: 20px 0px;
     display: flex;
     justify-content: center;
@@ -146,30 +147,51 @@
 .box {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin: 40px 20px;
     background-color: white;
     box-shadow: 2px 5px 15px 2px rgb(120, 181, 255);
     width: 220px;
-    height: 320px;
+    height: 350px;
+    transition: 1S;
+}
+
+.box:hover {
+    transition: 1s;
+    width: 250px;
+    height: 370px;
 }
 
 .box img {
     display: flex;
     justify-content: center;
     height: 150px;
+    transition: 1s;
+}
+
+.box:hover img {
+    transition: 1s;
+    height: 170px;
 }
 
 .box>h5 {
     margin: 15px auto 15px;
     color: #0073ff;
     font-size: large;
+    transition: 1s;
+}
+
+.box:hover h5 {
+    transition: 1s;
+    font-size: larger;
 }
 
 .box>p {
-    font-size: 11px;
+    font-size: 12px;
     text-align: center;
     margin: 0px 25px;
+    width: 180px;
 }
 
 /* Footer */

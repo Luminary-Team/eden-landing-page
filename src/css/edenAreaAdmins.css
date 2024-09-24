@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 690px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #99c0ff;
+#0073ff */
+
+/* Parte Principal */
+.partePrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partePrincipal a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    background-color: #0073ff;
+    margin: 0 50px;
+    border-radius: 15px;
+    padding: 50px 40px;
+    transition: 1s;
+}
+
+.partePrincipal a:hover {
+    font-size: 50px;
+    box-shadow: 0 5px 10px #99c0ff;
+    padding: 60px 45px;
+    transition: 1s;
+}
