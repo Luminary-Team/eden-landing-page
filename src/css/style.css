@@ -5,13 +5,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+img {
+    width: 20%;
+}
 
 /* Parte 1 */
 .nomeEden {
     color: #0073ff;
 }
 
-container1 {
+.container1 {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
@@ -55,7 +58,7 @@ container1 {
 
 
 /* Parte 2 */
-container2 {
+.container2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,7 +77,7 @@ container2 {
     box-shadow: 0 0px 10px #99c0ff;
 }
 
-container2 button {
+.container2 button {
     background-color: #0080ff;
     box-shadow: grey 2px 2px 2px;
 }
@@ -101,7 +104,7 @@ container2 button {
 
 
 /* PArte 3 */
-container3 {
+.container3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +134,7 @@ container3 {
 }
 
 /* Parte 4 */
-container4 {
+.container4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,7 +171,7 @@ container4 {
 }
 
 /* Parte 5 */
-container5 {
+.container5 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,7 +207,7 @@ container5 {
 }
 
 /* Parte final */
-container6 {
+.container6 {
     display: flex;
     justify-content: center;
     align-items: center;
