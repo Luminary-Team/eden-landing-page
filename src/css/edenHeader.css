@@ -1,7 +1,7 @@
 .main-header {
     background-color: white;
     padding: 10px 0;
-    box-shadow: 2px 1px 8px #474747;
+    border-bottom: #0073ff 2px solid;
     position: fixed;
     top: 0;
     z-index: 1000;
@@ -24,7 +24,6 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
     color: #0073ff;
     padding: 16px 15px;
     border-radius: 0px 0px 10px 10px;
@@ -39,6 +38,10 @@ nav ul li a:hover {
 nav ul li a:active {
     background-color: #555;
     color: white;
+}
+
+a {
+    text-decoration: none;
 }
 
 #perfil {

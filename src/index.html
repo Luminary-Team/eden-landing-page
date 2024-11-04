@@ -6,49 +6,48 @@
     <title>Eden</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-query-index.css">
     <link rel="stylesheet" href="css/edenHeader.css">
-    <link rel="stylesheet" href="css/media-query.css">
-    <link rel="icon" href="imagens/EDENLogotipo.png">
+    <link rel="stylesheet" href="css/media-query-header.css">
+    <link rel="icon" href="imagens/logoEden.png">
 </head>
 
 <body>
     <!-- Nav-Bar -->
     <header class="main-header">
-        <a href="index.html"><img src="imagens/EDENLogotipo.png" alt="" id="edenLogo"></a>
+        <a href="index.html"><img src="imagens/logoEden.png" alt="" id="edenLogo"></a>
 
         <nav>
             <ul>
                 <li><a href="index.html">Início</a></li>
-                <li><a href="./html/edenQuemSomos.html">Quem somos</a></li>
+                <li><a href="html/edenQuemSomos.html">Quem somos</a></li>
                 <li><a href="index.html#app">App</a></li>
             </ul>
         </nav>
 
-        <a href="./html/edenLogin.html"><img src="imagens/Cadeado Nav-bar.png" alt="" id="cadeado_navbar"></a>
+        <a href="https://eden-servlet-rada.onrender.com/main/index.jsp"><img src="imagens/cadeado-navbar.png" alt="" id="cadeado_navbar"></a>
     </header>
 
     <!-- Primeira parte da Tela Inicial -->
-    <div class="container1">
+    <container1>
         <div class="parte1">
             <div class="textoParte1">
                 <h1>Não sabe onde anunciar seu eletrônico?
                 <br>Vem pro <strong class="nomeEden">Eden</strong>!</h1>
 
                 <div class="botao">
-                    <img src="imagens/Apple store logo.png" alt="" class="appleStoreLogo">
-                    
-                    <img src="imagens/Google Play logo.png" alt="" class="googlePlayLogo">
+                    <a href="https://play.google.com/store" target="_blank"><img src="imagens/logo-google-play.png" alt="" class="googlePlayLogo"></a>
                 </div>
             </div>
 
-            <img src="imagens/Robo.png" alt="" id="roboParte1">
+            <img src="imagens/roboEden-sombreado.png" alt="" id="roboParte1">
         </div>
-    </div>
+    </container1>
 
     <!-- Segunda parte da tela Inicial -->
-    <div class="container2">
+    <container2>
         <div class="parte2" id="app">
-            <img src="imagens/Celular e Robo.gif" alt="" id="celularParte2">
+            <img src="imagens/celular-e-robo.gif" alt="" id="celularParte2">
 
             <div class="textoParte2">
                 <h1>Especialistas em tecnologia.</h1>
@@ -61,13 +60,13 @@
                 <br><strong>Mapa de anúncios:</strong>
                 <br>Veja os produtos mais próximos no mapa, negocie e pegue na mesma hora.</p>
 
-                <button><a href="./html/edenQuemSomos.html">Mais sobre a equipe</a></button>
+                <button><a href="html/edenQuemSomos.html">Mais sobre a equipe</a></button>
             </div>
         </div>
-    </div>
+    </container2>
 
     <!-- Terceira parte da tela Inicial -->
-    <div class="container3">
+    <container3>
         <div class="parte3">
             <h1>Conheça mais sobre o <strong class="nomeEden">Eden</strong> através de nosso Vídeo Institucional</h1>
 
@@ -75,7 +74,7 @@
                 src="https://www.youtube.com/embed/lKs7TueTbok?si=bJfA8xsMgIB_8-fn" title="Video Institucional Eden" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="videoInstitucional">
             </iframe>
         </div>
-    </div>
+    </container3>
 
     <!-- Forum -->
     <section class="titulo">
@@ -86,12 +85,12 @@
         </div>
     </section>
 
-    <div class="container4">
+    <container4>
         <div class="parte4">
-            <img src="imagens/Fórum.gif" alt="" id="celularParte4">
+            <img src="imagens/eden-forum.gif" alt="" id="celularParte4">
 
             <div class="textoParte4">
-                <h1>Forúm:</h1>
+                <h1>Fórum:</h1>
                 <p>
                     Você tem alguma dúvida sobre seu aparelho? Em como consertar ou se é melhor descartar em um ponto de coleta ou até mesmo vender e comprar outro?
                     <br>
@@ -109,7 +108,7 @@
                 </p>
             </div>
         </div>
-    </div>
+    </container4>
 
     <!-- Artigos -->
     <section class="titulo">
@@ -120,9 +119,9 @@
         </div>
     </section>
 
-    <div class="container5">
+    <container5>
         <div class="parte5">
-            <img src="imagens/Artigos.gif" alt="" id="celularParte5">
+            <img src="imagens/eden-artigos.gif" alt="" id="celularParte5">
 
             <div class="textoParte5">
                 <h1>Artigos:</h1>
@@ -143,10 +142,10 @@
                 </p>
             </div>
         </div>
-    </div>
+    </container5>
 
     <!-- Última parte da tela Inicial -->
-    <div class="container6">
+    <container6>
         <div class="parte6">
             <div class="edenSince">
                 <p>©Eden desde 2024</p>
@@ -161,10 +160,10 @@
 
             <div class="bloco2">
                 <h3>Transparência:</h3>
-                <button><a id="item" href="./html/edenTermosdeUso.html">Termos de Uso</a></button>
-                <button><a id="item" href="./html/edenPoliticaDePrivacidade.html">Política de Privacidade</a></button>
+                <a id="item" href="html/edenTermosdeUso.html"><button>Termos de Uso</button></a>
+                <a id="item" href="html/edenPoliticaDePrivacidade.html"><button>Política de Privacidade</button></a>
             </div>
         </div>
-    </div>
+    </container6>
 </body>
 </html>
