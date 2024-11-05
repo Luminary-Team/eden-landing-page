@@ -4,23 +4,34 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+html, body, .container {
+    margin: 0 auto;
+ }
 
 
-/* Parte principal */
+
+.container {
+    overflow: auto; 
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
 .partePrincipal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
     float: right;
     position: relative;
     top: 100px;
     right: 50px;
-    width: 70%;
-    margin: 0 0 0 50px;
+    width: 70vw; 
 }
 
-
-/* Contorno box */
 .box {
     padding: 30px;
-    margin: 50px auto 50px;
+    margin: 50px auto;
     border-radius: 10px;
     box-shadow: rgb(195, 215, 255) 3px 3px 10px 2px;
 }
@@ -29,20 +40,18 @@
     color: #0073ff;
 }
 
-/* Título */
 h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 40px;
-    background: linear-gradient(135deg, #bddfff 0%, rgb(116, 174, 255)  80%, #1b81ff 100%);
+    background: linear-gradient(135deg, #bddfff 0%, rgb(116, 174, 255) 80%, #1b81ff 100%);
     box-shadow: #f0f0f0 3px 3px 10px 2px;
     color: white;
     height: 100px;
 }
 
-/* Conteúdo box */
 .box h2 {
     color: #0073ff;
     margin: 20px 30px 20px;
@@ -60,7 +69,6 @@ p {
     font-weight: bold;
 }
 
-/* Tópicos */
 ul {
     font-size: 20px;
     margin: 20px 70px 20px;
@@ -68,7 +76,6 @@ ul {
 }
 
 ol {
-    margin: 20px 70px 20px;
     text-align: justify;
 }
 
@@ -77,21 +84,19 @@ li {
     margin: 20px auto 20px;
 }
 
-/* Indice */
-aside {
-    position: fixed;
-    width: 25%;
-}
+
 
 .indice {
+    position: fixed;
     display: flex;
     justify-items: center;
-    margin: 50px 10px 50px;
+    margin-left: 35px;
+    margin-top: 100px;
+    width: 30vw;
 }
 
 .indice h3 {
     color: #0073ff;
-    margin: 50px auto 20px;
 }
 
 .indice li {
@@ -103,4 +108,71 @@ aside {
 .indice a {
     color: black;
     text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    body {
+        display: flex;
+        justify-content: center; 
+    }
+    
+    .container {
+        width: 100vw; 
+        display: flex;
+        justify-content: center;
+    }
+
+    .partePrincipal {
+        width: 90%; 
+        margin: 0 auto;
+        margin-top: 90px;
+        float: none; 
+        position: static;
+    }
+
+    .indice {
+        display: none;
+    }
+    
+    .box {
+        padding: 0;
+        margin: 20px 0;
+    }
+    
+    h1 {
+        font-size: 35px;
+        height: 80px;
+    }
+    
+    p, ul, ol, li {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .partePrincipal {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 90px;
+
+    }
+
+    .box {
+        padding: 15px;
+        margin: 30px 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+        height: 70px;
+    }
+
+    .box h2 {
+        font-size: 18px;
+        margin: 15px;
+    }
+
+    p, ul, ol, li {
+        font-size: 12px;
+    }
 }
