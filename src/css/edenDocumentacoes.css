@@ -21,17 +21,19 @@ html, body, .container {
 .partePrincipal {
     display: flex;
     flex-direction: column;
-    justify-content: center ;
-    float: right;
-    position: relative;
-    top: 100px;
-    right: 50px;
-    width: 70vw; 
+    justify-content: center;
+    align-items: center;
+    position: absolute; /* ou 'fixed' se você quiser que o elemento fique fixo ao rolar */
+    top: 900px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70vw;
+
 }
 
 .box {
     padding: 30px;
-    margin: 50px auto;
+    margin: 100px 0px 0px 0px;;
     border-radius: 10px;
     box-shadow: rgb(195, 215, 255) 3px 3px 10px 2px;
 }
@@ -50,6 +52,9 @@ h1 {
     box-shadow: #f0f0f0 3px 3px 10px 2px;
     color: white;
     height: 100px;
+    position: absolute;
+    width: 100%;
+    top: 50px;
 }
 
 .box h2 {
@@ -135,17 +140,20 @@ li {
     }
     
     .box {
-        padding: 0;
-        margin: 20px 0;
+        right: 400px;
     }
     
     h1 {
-        font-size: 35px;
-        height: 80px;
+        font-size: 30px;
+        height: 55px;
+        top: 50px;
+        width: 100%;
+        position: absolute;
     }
     
     p, ul, ol, li {
         font-size: 13px;
+        padding: 0px 0px 10px 20px;
     }
 }
 
@@ -154,7 +162,6 @@ li {
         width: 90%;
         margin: 0 auto;
         margin-top: 90px;
-
     }
 
     .box {
@@ -164,7 +171,7 @@ li {
 
     h1 {
         font-size: 30px;
-        height: 70px;
+        height: 55px;
     }
 
     .box h2 {
