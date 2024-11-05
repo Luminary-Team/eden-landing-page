@@ -10,11 +10,11 @@ html, body, .container {
 }
 
 .container {
-    overflow: auto; 
+    overflow: auto;
     display: table;
     clear: both;
     max-width: 1200px;
-    padding: 0 15px; 
+    padding: 0 15px;
 }
 
 .partePrincipal {
@@ -22,28 +22,15 @@ html, body, .container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
-    position: relative; 
+    position: relative;
     top: 50px;
     width: 90%;
     margin: 0 auto;
-=======
-    position: absolute; /* ou 'fixed' se você quiser que o elemento fique fixo ao rolar */
-    top: 900px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 70vw;
-
->>>>>>> eb4c0507e6988f9f128535d7d0043d7fc961f6a7
 }
 
 .box {
     padding: 30px;
-<<<<<<< HEAD
     margin: 50px 0;
-=======
-    margin: 100px 0px 0px 0px;;
->>>>>>> eb4c0507e6988f9f128535d7d0043d7fc961f6a7
     border-radius: 10px;
     box-shadow: rgb(195, 215, 255) 3px 3px 10px 2px;
 }
@@ -58,18 +45,12 @@ h1 {
     box-shadow: #f0f0f0 3px 3px 10px 2px;
     color: white;
     height: 100px;
-<<<<<<< HEAD
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     top: 50px;
     width: 100%;
-=======
-    position: absolute;
-    width: 100%;
-    top: 50px;
->>>>>>> eb4c0507e6988f9f128535d7d0043d7fc961f6a7
 }
 
 .box h2 {
@@ -104,100 +85,3 @@ li {
     margin: 20px 0;
 }
 
-<<<<<<< HEAD
-=======
-
-
-.indice {
-    position: fixed;
-    display: flex;
-    justify-items: center;
-    margin-left: 35px;
-    margin-top: 100px;
-    width: 30vw;
-}
-
-.indice h3 {
-    color: #0073ff;
-}
-
-.indice li {
-    font-size: 14px;
-    width: fit-content;
-    margin: 15px 15px 15px;
-}
-
-.indice a {
-    color: black;
-    text-decoration: none;
-}
-
-@media (max-width: 1024px) {
-    body {
-        display: flex;
-        justify-content: center; 
-    }
-    
-    .container {
-        width: 100vw; 
-        display: flex;
-        justify-content: center;
-    }
-
-    .partePrincipal {
-        width: 90%; 
-        margin: 0 auto;
-        margin-top: 90px;
-        float: none; 
-        position: static;
-    }
-
-    .indice {
-        display: none;
-    }
-    
-    .box {
-        right: 400px;
-    }
-    
-    h1 {
-        font-size: 30px;
-        height: 55px;
-        top: 50px;
-        width: 100%;
-        position: absolute;
-    }
-    
-    p, ul, ol, li {
-        font-size: 13px;
-        padding: 0px 0px 10px 20px;
-    }
-}
-
-@media (max-width: 768px) {
-    .partePrincipal {
-        width: 90%;
-        margin: 0 auto;
-        margin-top: 90px;
-    }
-
-    .box {
-        padding: 15px;
-        margin: 30px 20px;
-    }
-
-    h1 {
-        font-size: 30px;
-        height: 55px;
-    }
-
-    .box h2 {
-        font-size: 18px;
-        margin: 15px;
-    }
-
-    p, ul, ol, li {
-        font-size: 12px;
-    }
-}
->>>>>>> eb4c0507e6988f9f128535d7d0043d7fc961f6a7
