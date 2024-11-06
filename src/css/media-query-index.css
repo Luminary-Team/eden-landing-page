@@ -6,10 +6,10 @@
     container4, container5 {
         height: fit-content;
     }
-    .parte4, .parte5 {
+    .parte4, .parte5, .parte6 {
         margin: 5% 0;
     }
-    #celularParte4, #celularParte5 {
+    #celularParte4, #celularParte5, #imagemParte6 {
         width: 20%;
     }
     .textoParte5 {
@@ -76,10 +76,23 @@
     }
 
     /* Parte 6 */
-    .parte6{
+    .parte6 {
+        margin: 5% 0;
+    }
+    #imagemParte6{
+        margin-left: 0;
+        width: 40%;
+    }
+    .textoParte6{
+        width: 450px;
         font-size: 14px;
     }
-    .parte6 button{
+
+    /* Parte 7 */
+    .parte7{
+        font-size: 14px;
+    }
+    .parte7 button{
         width: 200px;
     }
 }
@@ -144,6 +157,26 @@
     }
 
     /* Parte 6 */
+    .parte6 {
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin-top: 25%;
+    }
+    #imagemParte6{
+        width: 80%;
+    }
+    .textoParte6{
+        font-size: 12px;
+        margin: 50% 50% 0;
+    }
+
+    /* Parte 7 */
+    container7 {
+        margin-top: 30%;
+    }
     .edenSince{
         font-size: 10px;
     }
@@ -153,7 +186,7 @@
     #telefoneContato{
         font-size: 10px;
     }
-    .parte6 button{
+    .parte7 button{
         width: 80px;
     }
     #item{
@@ -290,7 +323,29 @@
     }
 
     /* Parte 6 */
-    .parte6 {
+    .container6{
+        height: fit-content;
+    }
+    .parte6{
+        margin-top: 70%;
+        height: 800px;
+        flex-direction: column-reverse;
+    }
+    .textoParte6{
+        margin-top: 50px;
+        margin-right: 0;
+        width: 80%;
+    }
+    #imagemParte6{
+        margin-top: 30px;
+        margin-bottom: 100px;
+        width: 70%;
+        height: 80%;
+    }
+
+    /* Parte 7 */
+    .parte7 {
+        margin-top: 80%;
         justify-content: space-between;
     }
     .bloco1{
@@ -375,10 +430,20 @@
     }
 
     /* Parte 6 */
-    .container6 {
+    .parte6 {
+        margin-top: 40%;
+    }
+
+    #imagemParte6{
+        width: 300px;
         margin-bottom: 5%;
     }
-    .parte6{
+
+    /* Parte 7 */
+    .container7 {
+        margin-bottom: 5%;
+    }
+    .parte7{
         margin-bottom: 5%;
         flex-direction: column;
     }
