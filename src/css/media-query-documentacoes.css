@@ -68,7 +68,7 @@
 }
 
 /* Responsividade para dispositivos ultra-compactos (menores que 360px de largura) */
-@media (max-width: 360px) {
+@media (max-width: 400px) {
     .container {
         width: 100%;
         padding: 0 5px; /* Reduz padding lateral para mais espaço */
@@ -77,7 +77,7 @@
     h1 {
         font-size: 24px;
         height: auto;
-        padding: 10px;
+        padding: 12px;
         line-height: 1.2; /* Ajusta o espaçamento interno */
         text-align: center;
         position: relative;

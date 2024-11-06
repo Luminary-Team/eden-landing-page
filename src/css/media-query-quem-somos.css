@@ -1,25 +1,29 @@
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1200px){
+    .parte1 p{
+        width: 450px;
+    }
     .parte1 img{
-        width: 400px;
+        width: 300px;
     }
 
     .parte2 img{
-        width: 550px;
+        width: 450px;
         height: 308px;
     }
 }
 
 @media screen and (max-width: 820px) {
     .parte1 img{
-        width: 270px;
+        width: 250px;
         margin-left: 10%;
     }
     .parte1 p{
-        font-size: 13px;
+        font-size: 12px;
+        width: 350px;
     }
 
     .parte2 img{
-        width: 300px;
+        width: 270px;
         height: 168px;
     }
     .textoParte2 h4{
