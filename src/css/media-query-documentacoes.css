@@ -34,7 +34,7 @@
         position: absolute;
     }
     
-    p, ul, ol, li {
+    p, .box ul, .box ol, .box li {
         font-size: 13px;
         padding: 0px 0px 10px 20px;
     }
@@ -114,7 +114,7 @@
 
     ul, ol {
         font-size: 12px;
-        padding: 0 10px; /* Reduz padding para encaixar melhor */
+        padding: 0 10px; /* Reduz padding para encaixar melhor */
     }
 
 }
