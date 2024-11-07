@@ -5,16 +5,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-html, body, .container {
-    margin: 0 auto;
-}
-
 .container {
     overflow: auto;
     display: table;
     clear: both;
     max-width: 1200px;
-    padding: 0 15px;
+    padding: 20px 15px;
 }
 
 .partePrincipal {
@@ -24,11 +20,12 @@ html, body, .container {
     align-items: center;
     position: relative;
     top: 50px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .box {
+    width: 85%;
     padding: 30px;
     margin: 50px 0;
     border-radius: 10px;
@@ -49,7 +46,8 @@ h1 {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 50px;
+    top: 90px;
+    margin-bottom: 50px;
     width: 100%;
 }
 
@@ -70,18 +68,19 @@ p {
     font-weight: bold;
 }
 
-ul {
+.box ul {
     font-size: 20px;
     margin: 20px 70px;
     text-align: justify;
 }
 
-ol {
+.box ol {
+    font-size: 20px;
+    margin: 20px 70px;
     text-align: justify;
 }
 
-li {
+.box li {
     font-size: 14px;
     margin: 20px 0;
 }
-
